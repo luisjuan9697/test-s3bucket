@@ -1,110 +1,92 @@
 <!DOCTYPE html>
-<html lang="en-Us">
-	<head>
-		<title>Cafe website CI/CD</title>
-		<link href="/favicon.ico" rel="icon" type="image/x-icon" />
-		<link rel="preconnect" href="https://fonts.gstatic.com">
-		<link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&family=Zen+Dots&display=swap" rel="stylesheet">
-		<!-- <link href="https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap" rel="stylesheet"> -->
-		<link rel="stylesheet" href="styles/reset.css" />
-		<link rel="stylesheet" href="styles/main.css" />
-		<link rel="stylesheet" href="styles/navigation.css" />
-		<link rel="stylesheet" href="styles/pastries.css" />
-		<link rel="stylesheet" href="styles/coffee.css" />
-		<link rel="stylesheet" href="styles/beans.css" />
-		<link rel="preconnect" href="https://fonts.gstatic.com">
-	</head>
-	<body>
-		<section>
-			<header data-expanded="not_expanded">
-				<h1>
-					CI/CD The Caf&eacute;
-					<!-- <img src="images/logo.png" /> -->
-				</h1>
-				<span data-action="toggle_navigation"></span>
-				<ul>
-					<li data-action="go_to" data-role="about_us">about us</li>
-					<li data-action="go_to" data-role="browse_pastries">browse pastries</li>
-					<li data-action="go_to" data-role="buy_coffee">buy coffee</li>
-					<li data-action="go_to" data-role="contact_us">contact us</li>
-				</ul>
-				<aside data-action="attempt_login">login</aside>
-			</header>
-			<div class="main_image"></div>
-			<span data-role2="special_highlight" data-action="go_to" data-role="browse_pastries">
-
-				All our pastries are made fresh every day!
-				<div></div>
-			</span>
-			<main>
-
-				<section data-role="about_us_content">
-					<a name="about_us">back_to_top</a>
-					<h2>About Us</h2>
-					<p>
-						Welcome!
-						<br><br>
-						Frank and Martha have been adding sweetness to their customers' lives
-					  since they opened their cafe in 2018.
-						Frank's recipes have been passed down from his mother and use simple
-						and fresh ingredients to produce delightful flavors.
-						Both of them will personally greet you with a welcoming smile when you visit!
-						<br><br>
-						We cater to different customers.
-						Some are morning early birds who want to enjoy the atmosphere.
-						Others need to hurry out with a takeaway cup.
-						Still others want to spend a lazy Saturday morning people-watching over a good espresso and conversation.
-						<br><br>
-						Browse our offerings here and please come visit us in person soon!
-					</p>
-				</section>
-
-				<section data-role="browse_pastries_content">
-					<a name="browse_pastries">back to top</a>
-					<h2>browse pastries</h2>
-					<aside>
-						Frank bakes a rich variety of doughnuts and other pastries. Try them all!
-					</aside>
-					<span data-selected="not_selected" data-action="show_all">view all</span>
-					<span data-selected="selected" data-action="show_on_offer">on offer</span>
-					<output data-role="toast"></output>
-				</section>
-
-				<section data-role="browse_coffee_content">
-					<a name="buy_coffee">back to top</a>
-					<h2>buy coffee</h2>
-					<aside>
-						<br>
-						&nbsp;&nbsp;
-						We offer a wide variety of globally sourced fair trade gourmet coffees, including single origin.
-						<br>
-						&nbsp;&nbsp;
-						Try a delicious Ethiopian blend with hints of citrus flavors or one of our signature robust French Roasts.
-						<br><br><br>
-					</aside>
-				</section>
-
-				<section data-role="contact_us_content">
-					<a name="contact_us">back to top</a>
-					<h2>contact us</h2>
-					<p>
-						123 Any Street, Any Town, USA<br>Tel: +1-800-555-0193
-					</p>
-					<p>
-						Weekdays: 6:00am - 6:00pm<br>Saturday: 7:00am - 7:00pm<br>Closed on Sundays
-					</p>
-				</section>
-			</main>
-			<footer>
-				<span>&copy; 2021, Amazon Web Services, Inc. or its Affiliates. All rights reserved.</span>
-			</footer>
-		</section>
-		<script src="config.js"></script>
-		<script src="scripts/jquery-3.6.0.min.js"></script>
-		<script src="scripts/main.js"></script>
-		<script src="scripts/navigation.js"></script>
-		<script src="scripts/pastries.js"></script>
-		<script src="scripts/coffee.js"></script>
-	</body>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Luis Alberto Luisjuan Guerrero - Resume</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <h1>Luis Alberto Luisjuan Guerrero</h1>
+        <p>+52-341-134-4335 | <a href="mailto:lluisjuanguerrero@gmail.com">lluisjuanguerrero@gmail.com</a> | <a href="https://linkedin.com/in/luis-alberto-luisjuan-guerrero-4a4aa1143/">LinkedIn</a> | Guadalajara, México</p>
+    </header>
+    <main>
+        <section id="summary">
+            <h2>Summary</h2>
+            <p>AWS Solutions Architect and Developer Associate - Oracle Cloud Infrastructure Associate - System and Network Administrator - DevOps - SRE</p>
+            <p>I am recognized for efficiently implementing cloud and on-premises solutions through automation, leveraging my creative problem-solving skills and collaborative approach to ensure the reliability of the business. As a Solutions Architect Specialist with certifications from both AWS and Oracle, I bring extensive expertise in designing, developing, and implementing cloud infrastructure, networking systems, configuration management, and DevOps toolsets. My career aspirations focus on continual growth in emerging technologies while contributing to the success of cutting-edge projects in dynamic cloud environments.</p>
+        </section>
+        <section id="skills">
+            <h2>Hard Skills</h2>
+            <ul>
+                <li>Linux server Administration: LAMP, LEMP, XAMPP, Webmin, CLI Terminal, top, Vim, SSH, Crontab</li>
+                <li>Infrastructure: On Premise (VMware vSphere/ESXi, VirtualBox, KVM) - Cloud Platforms (AWS, Oracle Cloud Infrastructure) - SaaS, PaaS, IaaS, DaaS, Microservices, and APIs</li>
+                <li>Networking & Security: Cisco CCNA, Routing, Switching, Wireless, SSL, IAM, RADIUS - Knowledge of security best practices, encryption, firewalls, vulnerability assessment</li>
+                <li>Storage Solutions: Understanding of storage technologies (SAN, Block Storage, NAS, Object Storage)</li>
+                <li>Monitoring and Observability: Nagios, Zabbix, Grafana, Prometheus, NetFlows, SNMP traps</li>
+                <li>CI/CD & Version Control: Jenkins, CodePipeline, Git</li>
+                <li>Infrastructure as Code (IaC): Terraformer, CloudFormation, Ansible</li>
+                <li>Containerization & Orchestration: Docker, Kubernetes (EKS, ECS, Kubectl, Helm, Kubeadm), Puppet, Chef</li>
+                <li>Scripting & Automation: Python, Bash, PowerShell</li>
+                <li>Databases: MySQL, PostgreSQL, MariaDB, DynamoDB, MongoDB, DocumentDB</li>
+                <li>Operating Systems: Linux (Debian, Ubuntu, Centos), Windows (Server, Active Directory, WSUS, GPO)</li>
+            </ul>
+        </section>
+        <section id="experience">
+            <h2>Professional Experience</h2>
+            <p><strong>Roles:</strong> Desktop Support and System Administrator</p>
+            <p><strong>Experience:</strong> Service Social / Professional Internships / Administrative Assistant / Desktop Support / System Administrator</p>
+            <p><strong>Universidad de Guadalajara - Centro Universitario del Sur - Coordinación de Tecnologías para el Aprendizaje</strong><br> Since August 2014 to Present - 9 years of Experience</p>
+            <p>Throughout my tenure, I have been involved in supporting the development, operation, and supervision of the IT infrastructure at the university center, encompassing hardware, software, and telecommunications. One of my most significant contributions has been implementing a system to automate operating system deployments and configuration management, saving us hundreds of hours of work over the past 6 years.</p>
+        </section>
+        <section id="education">
+            <h2>Education and Certifications</h2>
+            <ul>
+                <li>AWS
+                    <ul>
+                        <li>AWS Developer Associate (DVA-C02): July 2024</li>
+                        <li>AWS Solutions Architect Associate (SAA-C03): April 2024</li>
+                        <li>AWS Cloud Practitioner (CLF-C02): February 2024</li>
+                    </ul>
+                </li>
+                <li>Oracle
+                    <ul>
+                        <li>Oracle Cloud Infrastructure 2023 Foundations Associate (1Z0-1085-23): September 2023</li>
+                    </ul>
+                </li>
+                <li>Kodekloud
+                    <ul>
+                        <li>Jenkins: November 2023</li>
+                        <li>Fundamentals of DevOps: November 2023</li>
+                        <li>AWS CodePipeline (CI/CD Pipeline): December 2023</li>
+                        <li>AWS ECS: December 2023</li>
+                        <li>Ansible for Beginners: January 2024</li>
+                        <li>HashiCorp Terraform Cloud: January 2024</li>
+                    </ul>
+                </li>
+                <li>Cisco - Networking Academy
+                    <ul>
+                        <li>CCNAv7 - Enterprise Networking: November 2023</li>
+                        <li>CCNAv7 - Switching, Routing, and Wireless: June 2024</li>
+                    </ul>
+                </li>
+                <li>Centro de Bachillerato Tecnológico Industrial y de Servicios
+                    <ul>
+                        <li>Technical Programming: August 2012 - June 2015</li>
+                    </ul>
+                </li>
+            </ul>
+        </section>
+        <section id="languages">
+            <h2>Languages</h2>
+            <p>Native Spanish</p>
+            <p>English: Professional</p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Luis Alberto Luisjuan Guerrero</p>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
 </html>
